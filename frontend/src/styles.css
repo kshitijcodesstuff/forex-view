@@ -1,0 +1,38 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.selectors {
+  margin: 10px 0;
+}
+
+.selectors label {
+  margin: 0 10px;
+}
+
+.selectors select {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.timeline-buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.timeline-buttons .active {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
