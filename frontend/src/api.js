@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://backend-vance.onrender.com/api";
+const BASE_URL = "http://127.0.0.1:8000/api";
 
 export const fetchForexData = async (fromCurrency, toCurrency, period) => {
   try {
